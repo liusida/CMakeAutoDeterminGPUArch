@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12.0)
-project(c6070 LANGUAGES CXX CUDA)
+project(DetectGPUArch LANGUAGES CXX CUDA)
 
-add_executable(c6070 main.cu)
+add_executable(DetectGPUArch main.cu)
 
 find_package(CUDA) # for CUDA_SELECT_NVCC_ARCH_FLAGS function
 CUDA_SELECT_NVCC_ARCH_FLAGS(ARCH_FLAGS)
@@ -21,6 +21,6 @@ else (CUDA_DEBUG)
     set(CUDA_OPTIONS $<$<COMPILE_LANGUAGE:CUDA>: ${ARCH_FLAGS}>)
 endif(CUDA_DEBUG)
 
-target_compile_options(c6070 PUBLIC ${CUDA_OPTIONS})
+target_compile_options(DetectGPUArch PUBLIC ${CUDA_OPTIONS})
 
 set(CMAKE_VERBOSE_MAKEFILE OFF) #turn on if we want to debug in compilation.

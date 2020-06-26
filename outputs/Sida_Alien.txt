@@ -1,0 +1,29 @@
+[cms-client] Configuring using the "Unix Makefiles" CMake generator
+[cmake] The CXX compiler identification is GNU 8.4.0
+[cmake] The CUDA compiler identification is NVIDIA 10.1.168
+[cmake] Check for working CXX compiler: /usr/bin/c++
+[cmake] Check for working CXX compiler: /usr/bin/c++ -- works
+[cmake] Detecting CXX compiler ABI info
+[cmake] Detecting CXX compiler ABI info - done
+[cmake] Detecting CXX compile features
+[cmake] Detecting CXX compile features - done
+[cmake] Check for working CUDA compiler: /usr/local/cuda/bin/nvcc
+[cmake] Check for working CUDA compiler: /usr/local/cuda/bin/nvcc -- works
+[cmake] Detecting CUDA compiler ABI info
+[cmake] Detecting CUDA compiler ABI info - done
+[cmake] Looking for C++ include pthread.h
+[cmake] Looking for C++ include pthread.h - found
+[cmake] Looking for pthread_create
+[cmake] Looking for pthread_create - not found
+[cmake] Looking for pthread_create in pthreads
+[cmake] Looking for pthread_create in pthreads - not found
+[cmake] Looking for pthread_create in pthread
+[cmake] Looking for pthread_create in pthread - found
+[cmake] Found Threads: TRUE  
+[cmake] Found CUDA: /usr/local/cuda (found version "10.1") 
+[cmake] Autodetected CUDA architecture(s):  6.1
+[cmake] CUDA_SELECT_NVCC_ARCH_FLAGS returns: -gencodearch=compute_61,code=sm_61
+[cmake] Flag length: 2
+[cmake] Set CUDA_DEBUG to ON.
+[cmake] Configuring done
+[cmake] Generating done
