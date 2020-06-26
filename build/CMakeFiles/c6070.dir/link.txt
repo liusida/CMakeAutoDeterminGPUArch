@@ -1,1 +1,0 @@
-/usr/bin/g++  CMakeFiles/c6070.dir/main.cu.o CMakeFiles/c6070.dir/cmake_device_link.o -o c6070  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
