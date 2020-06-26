@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/liusida/code/cmake_6070/build",
+  "command": "/usr/local/cuda/bin/nvcc    -g   -G -gencode arch=compute_61,code=sm_61 -x cu -c /home/liusida/code/cmake_6070/main.cu -o CMakeFiles/c6070.dir/main.cu.o",
+  "file": "/home/liusida/code/cmake_6070/main.cu"
+}
+]

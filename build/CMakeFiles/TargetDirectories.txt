@@ -1,0 +1,5 @@
+/home/liusida/code/cmake_6070/build/CMakeFiles/edit_cache.dir
+/home/liusida/code/cmake_6070/build/CMakeFiles/package_source.dir
+/home/liusida/code/cmake_6070/build/CMakeFiles/rebuild_cache.dir
+/home/liusida/code/cmake_6070/build/CMakeFiles/c6070.dir
+/home/liusida/code/cmake_6070/build/CMakeFiles/package.dir
